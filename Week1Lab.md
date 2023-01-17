@@ -30,4 +30,4 @@ First you need to download vs code using this
 - ![image](https://user-images.githubusercontent.com/122490992/211933220-aeb293ce-c6e1-479b-a043-7cfec648f8ac.png)
 - you can then logout with exit 
    
-**This was a very simple tuturial on how to gain remote access found that I learned in person through lab 1.**
+**This was a very simple tuturial on how to gain remote access that I learned in person through lab 1.**
