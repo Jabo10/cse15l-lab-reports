@@ -24,8 +24,8 @@ First you need to download vs code using this
 - cp `/home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 - cat `/home/linux/ieng6/cs15lwi23/public/hello.txt`
 - the ones that worked well for me personally were 
-- ls -lat
-- ls -a
+- ls `-lat`
+- ls `-a`
 - ls `/home/linux/ieng6/cs15lwi23/cs15lwi23XXX`, where the XXX is yours or anothers persons name 
 - ![image](https://user-images.githubusercontent.com/122490992/211933220-aeb293ce-c6e1-479b-a043-7cfec648f8ac.png)
 - After trying you should see what each do, first cp and cat work similar to copy a file and use it for input and output 
