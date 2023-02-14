@@ -11,7 +11,7 @@ All were found from this [Link found from google ]([https://www.tecmint.com/35-p
 ./non-fiction/OUP/Fletcher/ch1.txt
 `
 
-with explanation from Chatgpt The -iname option is used with the find command to search for files or directories with a specific name pattern, 
+With explanation from Chatgpt The -iname option is used with the find command to search for files or directories with a specific name pattern, 
 but it is case-insensitive. This means that the search pattern you specify with -iname will match files or directories regardless of the case of the letters in the names.
 
 ### `find . -iname "*.txt"`
@@ -472,13 +472,15 @@ A way less specified version that takes the entire current directory and finds a
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
 ./travel_guides/berlitz2/Cancun-WhereToGo.txt
 `
+
 Again with help from Chatgpt The -path option is used with the find command to search for files or directories with a specific path pattern.
 The pattern you specify with -path is matched against the full pathnames of files or directories.
 
 ### `find . -path "./non-fiction/OUP/Berk/ch2.txt"` almost as an absolute path 
 
 `./non-fiction/OUP/Berk/ch2.txt`
-more specfified version that finds the exact path and makes sure that it exists which clearly it does. 
+
+More specfified version that finds the exact path and makes sure that it exists which clearly it does. 
 
 ### Using the `-size` command 
 `find .  -size +100000c`
@@ -494,13 +496,14 @@ more specfified version that finds the exact path and makes sure that it exists 
 ./travel_guides/berlitz2/Canada-WhereToGo.txt
 ./travel_guides/berlitz2/China-WhereToGo.txt
 `
-this is used to search for files or directories of a specific size in bytes hence the c
+
+This is used to search for files or directories of a specific size in bytes hence the c
 
 now using it with Megabytes as M
 `find . -size +1M`
 ` ` 
 
-returns that nothing was found so it is empty meaning nothing in the current directory was bigger. 
+Returns that nothing was found so it is empty meaning nothing in the current directory was bigger. 
 
 ### using `-type` command
 `find . -type d`
@@ -518,10 +521,11 @@ returns that nothing was found so it is empty meaning nothing in the current dir
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
 `
-using d to specify directories meaning that with the -type it finds all of the directories inside of the current directory. 
+Using d to specify directories meaning that with the -type it finds all of the directories inside of the current directory. 
 ### now searching for regular files using 
 `find . -type f`
 `
+
 ./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Berk/CH4.txt
@@ -747,4 +751,5 @@ using d to specify directories meaning that with the -type it finds all of the d
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
 ./travel_guides/berlitz2/Cancun-WhereToGo.txt
 `
+
 This searches all of the regular files which is similar to output that is above. 
