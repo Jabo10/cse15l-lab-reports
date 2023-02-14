@@ -247,8 +247,7 @@ A way less specified version that takes the entire current directory and finds a
 
 ### using the `-path ` command but this time specific after 
 `find . -path "*.txt"`
-`
-./non-fiction/OUP/Berk/ch2.txt
+`./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Berk/CH4.txt
 ./non-fiction/OUP/Berk/ch7.txt
@@ -471,8 +470,7 @@ A way less specified version that takes the entire current directory and finds a
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ./travel_guides/berlitz2/Bahamas-History.txt
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
-./travel_guides/berlitz2/Cancun-WhereToGo.txt
-`
+./travel_guides/berlitz2/Cancun-WhereToGo.txt`
 
 Again with help from Chatgpt The -path option is used with the find command to search for files or directories with a specific path pattern.
 The pattern you specify with -path is matched against the full pathnames of files or directories.
