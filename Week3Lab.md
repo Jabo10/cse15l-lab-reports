@@ -2,7 +2,7 @@
 I will be choosing the `find` command 
 All were found from this [Link found from google ]([https://www.tecmint.com/35-practical-examples-of-linux-find-command/](https://www.computerhope.com/unix/ufind.htm)) and Chatgpt
 ## using `-iname` command 
-### `find . -iname ch1.txt`
+`find . -iname ch1.txt`
 
 ```
 ./non-fiction/OUP/Berk/ch1.txt
@@ -15,7 +15,7 @@ All were found from this [Link found from google ]([https://www.tecmint.com/35-p
 With explanation from Chatgpt The -iname option is used with the find command to search for files or directories with a specific name pattern, 
 but it is case-insensitive. This means that the search pattern you specify with -iname will match files or directories regardless of the case of the letters in the names.
 
-### `find . -iname "*.txt"`
+ `find . -iname "*.txt"`
 ```
 ./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
@@ -480,7 +480,7 @@ A way less specified version that takes the entire current directory and finds a
 Again with help from Chatgpt The -path option is used with the find command to search for files or directories with a specific path pattern.
 The pattern you specify with -path is matched against the full pathnames of files or directories.
 
-### `find . -path "./non-fiction/OUP/Berk/ch2.txt"` almost as an absolute path 
+`find . -path "./non-fiction/OUP/Berk/ch2.txt"` almost as an absolute path 
 
 ```
 `./non-fiction/OUP/Berk/ch2.txt`
