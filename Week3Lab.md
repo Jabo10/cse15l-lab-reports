@@ -16,7 +16,7 @@ With explanation from Chatgpt The -iname option is used with the find command to
 but it is case-insensitive. This means that the search pattern you specify with -iname will match files or directories regardless of the case of the letters in the names.
 
 ### `find . -iname "*.txt"`
-`
+```
 ./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Berk/CH4.txt
@@ -242,7 +242,7 @@ but it is case-insensitive. This means that the search pattern you specify with 
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
 ./travel_guides/berlitz2/Cancun-WhereToGo.txt`
 `./non-fiction`
-
+```
 A way less specified version that takes the entire current directory and finds all of the .txt files regardless of case sensitivity. 
 
 ### using the `-path ` command but this time specific after 
