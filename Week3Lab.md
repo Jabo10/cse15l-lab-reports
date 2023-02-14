@@ -4,13 +4,13 @@ All were found from this [Link found from google ]([https://www.tecmint.com/35-p
 ## using `-iname` command 
 ### `find . -iname ch1.txt`
 
-`
+```
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Abernathy/ch1.txt
 ./non-fiction/OUP/Rybczynski/ch1.txt
 ./non-fiction/OUP/Kauffman/ch1.txt
 ./non-fiction/OUP/Fletcher/ch1.txt
-`
+```
 
 With explanation from Chatgpt The -iname option is used with the find command to search for files or directories with a specific name pattern, 
 but it is case-insensitive. This means that the search pattern you specify with -iname will match files or directories regardless of the case of the letters in the names.
@@ -243,10 +243,14 @@ but it is case-insensitive. This means that the search pattern you specify with 
 ./travel_guides/berlitz2/Cancun-WhereToGo.txt`
 `./non-fiction`
 ```
+
 A way less specified version that takes the entire current directory and finds all of the .txt files regardless of case sensitivity. 
 
 ### using the `-path ` command but this time specific after 
+
 `find . -path "*.txt"`
+
+```
 `./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Berk/CH4.txt
@@ -470,20 +474,24 @@ A way less specified version that takes the entire current directory and finds a
 ./travel_guides/berlitz2/Vallarta-WhereToGo.txt
 ./travel_guides/berlitz2/Bahamas-History.txt
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
-./travel_guides/berlitz2/Cancun-WhereToGo.txt`
+./travel_guides/berlitz2/Cancun-WhereToGo.txt
+```
 
 Again with help from Chatgpt The -path option is used with the find command to search for files or directories with a specific path pattern.
 The pattern you specify with -path is matched against the full pathnames of files or directories.
 
 ### `find . -path "./non-fiction/OUP/Berk/ch2.txt"` almost as an absolute path 
 
+```
 `./non-fiction/OUP/Berk/ch2.txt`
-
+```
 More specfified version that finds the exact path and makes sure that it exists which clearly it does. 
 
 ### Using the `-size` command 
+
 `find .  -size +100000c`
-`
+
+```
 ./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/CH4.txt
 ./travel_guides/berlitz1/WhereToIndia.txt
@@ -494,7 +502,7 @@ More specfified version that finds the exact path and makes sure that it exists 
 ./travel_guides/berlitz2/Portugal-WhereToGo.txt
 ./travel_guides/berlitz2/Canada-WhereToGo.txt
 ./travel_guides/berlitz2/China-WhereToGo.txt
-`
+```
 
 This is used to search for files or directories of a specific size in bytes hence the c
 
@@ -505,8 +513,10 @@ now using it with Megabytes as M
 Returns that nothing was found so it is empty meaning nothing in the current directory was bigger. 
 
 ### using `-type` command
+
 `find . -type d`
-`
+
+```
 .
 ./non-fiction
 ./non-fiction/OUP
@@ -519,11 +529,14 @@ Returns that nothing was found so it is empty meaning nothing in the current dir
 ./travel_guides
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
-`
+```
+
 Using d to specify directories meaning that with the -type it finds all of the directories inside of the current directory. 
 ### now searching for regular files using 
+
 `find . -type f`
-`
+
+```
 
 ./non-fiction/OUP/Berk/ch2.txt
 ./non-fiction/OUP/Berk/ch1.txt
@@ -749,6 +762,6 @@ Using d to specify directories meaning that with the -type it finds all of the d
 ./travel_guides/berlitz2/Bahamas-History.txt
 ./travel_guides/berlitz2/Beijing-WhatToDo.txt
 ./travel_guides/berlitz2/Cancun-WhereToGo.txt
-`
+````
 
 This searches all of the regular files which is similar to output that is above. 
