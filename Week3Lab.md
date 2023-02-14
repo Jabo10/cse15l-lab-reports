@@ -3,6 +3,7 @@ I will be choosing the `find` command
 All were found from this [Link found from google ]([https://www.tecmint.com/35-practical-examples-of-linux-find-command/](https://www.computerhope.com/unix/ufind.htm)) and Chatgpt
 ## using `-iname` command 
 ### `find . -iname ch1.txt`
+
 `
 ./non-fiction/OUP/Berk/ch1.txt
 ./non-fiction/OUP/Abernathy/ch1.txt
