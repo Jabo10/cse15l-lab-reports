@@ -23,6 +23,7 @@ Using command `less -N HandRIbiza.txt` as such
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581049-a5db2d2d-f372-41a3-97cb-81fce26ecc20.png">
 This will display the line numbers of the file 
 
+
 getting more specific with the `+` command 
 `less -N +10 HandRIbiza.txt`
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581154-8da2afbc-da36-4523-9103-5a56f438385d.png">
