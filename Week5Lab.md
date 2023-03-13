@@ -12,14 +12,13 @@ With explanation from Chatgpt In summary, the /searchterm command in less allows
 and then navigate through the file to find all occurrences of that string. Forwards
 now showing this with the `?` command while in `less`
 `less HandRIbiza.txt`
-which will show the same highlights as such 
+which will show the same highlights as such
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224580706-58393482-150b-4707-afe1-d3adb4c1fc0d.png">
 
 It is essentially the same thing but instead it searches backwards for the specified string.
 
 ### using the `-N` command with `less`
-`less -N HandRIbiza.txt` 
-
+`less -N HandRIbiza.txt`
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581049-a5db2d2d-f372-41a3-97cb-81fce26ecc20.png">
 
 This will display the line numbers of the file 
@@ -27,7 +26,6 @@ This will display the line numbers of the file
 getting more specific with the `+` command 
 `less -N +10 HandRIbiza.txt`
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581154-8da2afbc-da36-4523-9103-5a56f438385d.png">
-
 Showing that it shows the display starting at line 10
 
 
