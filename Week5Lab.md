@@ -28,7 +28,7 @@ getting more specific with the `+` command
 `less -N +10 HandRIbiza.txt`
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581154-8da2afbc-da36-4523-9103-5a56f438385d.png">
 
-* Showing that displays starting at line 10
+Showing that displays starting at line 10
 
 
 ### Using the `less` command to open mulitiple files 
