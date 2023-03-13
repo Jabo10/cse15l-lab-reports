@@ -1,4 +1,4 @@
-# Lab Report 5 - Researching More Commands (Week 9) 
+# Lab Report 5 - Researching More Commands (Week 9)
 I will now be choosing the `less` command to research instead of the `find` command 
 All were found from this [Link found from google ](https://phoenixnap.com/kb/less-command-in-linux) and Chatgpt
 I will be using screenshots instead of codeblock because it is just easier to show somethings this way 
