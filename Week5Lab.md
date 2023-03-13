@@ -21,7 +21,6 @@ It is essentially the same thing but instead it searches backwards for the speci
 Using command `less -N HandRIbiza.txt` as such 
 
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581049-a5db2d2d-f372-41a3-97cb-81fce26ecc20.png">
-
 This will display the line numbers of the file 
 
 getting more specific with the `+` command 
