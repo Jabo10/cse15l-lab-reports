@@ -14,22 +14,28 @@ now showing this with the `?` command while in `less`
 `less HandRIbiza.txt`
 which will show the same highlights as such 
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224580706-58393482-150b-4707-afe1-d3adb4c1fc0d.png">
+
 It is essentially the same thing but instead it searches backwards for the specified string.
 
 ### using the `-N` command with `less`
 `less -N HandRIbiza.txt` 
+
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581049-a5db2d2d-f372-41a3-97cb-81fce26ecc20.png">
+
 This will display the line numbers of the file 
 
 getting more specific with the `+` command 
 `less -N +10 HandRIbiza.txt`
 <img width="681" alt="image" src="https://user-images.githubusercontent.com/122490992/224581154-8da2afbc-da36-4523-9103-5a56f438385d.png">
-showing that it shows the display starting at line 10
+
+Showing that it shows the display starting at line 10
 
 
 ### Using the `less` command to open mulitiple files 
 In this case using paths 
+
 `less written_2/travel_guides/berlitz1/HandRIbiza.txt written_2/non-fiction/OUP/Castro/chY.txt`
+
 <img width="848" alt="image" src="https://user-images.githubusercontent.com/122490992/224582740-d5db89a4-b308-4bab-8663-c03ec4194e37.png">
 In order to go to the next file you have to type `:n` while in less and the second file will be outputed 
 <img width="1144" alt="image" src="https://user-images.githubusercontent.com/122490992/224582800-d17fac23-dbbe-4557-a376-ed86ef39ce10.png">
@@ -37,6 +43,7 @@ In order to go to the next file you have to type `:n` while in less and the seco
 This Open multiple files simultaneously using less without losing the current position in the files. 
 To open multiple files, specify file names one after another. As given from the website 
 could also just use on text files and not paths 
+
 `less HandRIbiza.txt HandRIsrael.tx`
 <img width="1144" alt="image" src="https://user-images.githubusercontent.com/122490992/224583082-77d245f5-2289-4ad7-8b11-52ad5db29752.png">
 then  `:n`
